@@ -1,0 +1,19 @@
+# Chip8Emu
+Chip8Emu is a emulator for the chip8 platform.
+
+Use this one liner to install it:
+```
+curl -ss https://raw.githubusercontent.com/tatewilhelm/chip8emu/master/install.sh | sudo bash
+```
+
+## Usage
+```
+chip8 <rom>
+```
+
+Options:
+```
+-h, --help      Show this help message and exit
+--hz <n>        Set the clock speed in hz (default: 300)
+--scale <n>     Set the scale of the window (default: 15)
+```
